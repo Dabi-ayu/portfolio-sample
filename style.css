@@ -27,11 +27,32 @@ font-size: 96px;
 .adjusted-width{
     width: 160px;
 }
-.btn:hover{
-    color: black;
-}
+
 .adjusted-heading{
     font-size: 64px;
     margin-top:96px;
     margin-bottom: 36px;
+}
+.btn:hover {
+    color: black;
+}
+
+@media (max-width:576px){
+.hero-section h1{
+    font-size: 48px;
+}
+.hero-section h2{
+font-size: 24px;
+}
+.hero-section{
+    padding: 100px 18px;
+}
+.adjusted-heading{
+    font-size: 40px;
+    margin-top: 2px;
+}
+div{
+    text-align: center;
+}
+
 }
