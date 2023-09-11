@@ -49,6 +49,7 @@ font-size: 96px;
 .header-section{
     padding: 160px 20px;
 }
+
 .banner h3{
     font-family: var(--default-font-family);
 }
@@ -68,6 +69,20 @@ display: block;
  margin: 0 auto;   
  width: 24%;
 
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-handles{
+    color: #3e5e90;
+    text-align: center;
+   
+}
+.social-handles:hover{
+    color: white;
 }
 .shecodes-logo{
     max-width: 48%;
@@ -113,5 +128,12 @@ width: 80%
 
  i{
     margin-left: auto;
+}
+.sm-fh{
+    font-size:large;
+    text-align: center;
+}
+.target-div{
+    display: none;
 }
 }
