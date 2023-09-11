@@ -27,6 +27,10 @@ font-size: 96px;
 .heading{
     font-size: 84px;
 }
+.aligned-head{
+    font-size: 64px;
+}
+
 .adjusted-width{
     width: 160px;
 }
@@ -47,7 +51,7 @@ font-size: 96px;
 }
 
 @media (max-width:576px){
-.hero-section h1, .heading{
+.hero-section h1, .heading, .aligned-head{
     font-size: 48px;
 }
 .hero-section h2{
