@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="best portfolio website sample" />
-    <title>Home page sample</title>
+    <meta
+      name="description"
+      content="see more about front-end engineer Dabi Ayu"
+    />
+    <title>Front-end developer, Dabi's about page</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -51,15 +54,12 @@
         <div class="navbar-collapse me-5 collapse show" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a
-                class="nav-link active text-primary"
-                aria-current="page"
-                href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link active text-primary" href="about.html"
+                >About</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="work.html">Work</a>
@@ -83,7 +83,9 @@
             so far i've learned a lot from the shecodes workshops! I can't wait
             for what awaits me after finishing the shecodes workshops.
           </p>
-          <button class="btn btn-primary p-3 mt-4">See my projects</button>
+          <button type="button" class="btn btn-primary p-3 mt-4">
+            <a href="work.html" class="text-white no-deco">See my projects</a>
+          </button>
         </div>
         <div class="col-sm-6">
           <img
@@ -93,6 +95,55 @@
           />
         </div>
       </div>
+      <div class="container d-none d-sm-block">
+        <div
+          class="d-flex justify-content-around p-4 bg-body-secondary rounded mt-5 target-div"
+        >
+          <div>
+            <h2 class="mb-3 fs-1 fw-bolder">Work Inquiry</h2>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="btn btn-primary p-3 mt-3 adjusted-width text-white"
+            >
+              <a href="contact.html" class="text-white no-deco">Contact me</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <h3 class="text-center m-5 poppins-head sm-fh">
+        <a href="mailto:dabiclementina@gmail.com" class="text-black no-deco"
+          >dabiclementina@gmail.com</a
+        >
+      </h3>
+      <footer class="mb-5">
+        <div
+          class="social-handles p-2 bg-light rounded-circle"
+          title="Email Dabi"
+        >
+          <a href="mailto:dabiclementina@gmail.com">
+            <i class="fa-solid fa-envelope fs-5"></i>
+          </a>
+        </div>
+        <div
+          class="social-handles p-2 bg-light rounded-circle"
+          title="tweet Dabi"
+        >
+          <a href="https://twitter.com/dabi_iya">
+            <i class="fa-brands fa-twitter fs-5"></i>
+          </a>
+        </div>
+        <div
+          class="social-handles p-2 bg-light rounded-circle"
+          title="on instagram"
+        >
+          <a href="https://instagram.com/dabiayu?igshid=MzNlNGNkZWQ4Mg==">
+            <i class="fa-brands fa-instagram fs-5"></i>
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
