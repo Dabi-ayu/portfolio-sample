@@ -69,7 +69,12 @@ display: block;
  width: 24%;
 
 }
-
+.shecodes-logo{
+    max-width: 48%;
+}
+.navbar-nav a:hover{
+    color: blue;
+}
 @media (max-width:576px){
 .hero-section h1, .heading, .aligned-head{
     font-size: 48px;
@@ -87,6 +92,9 @@ font-size: 24px;
 div{
     text-align: center;
 }
+.shecodes-logo {
+    max-width: 24%;
+}
 .header-section{
     padding: 15px 10px;
 }
@@ -102,6 +110,7 @@ width: 80%
 .hero-contact{
     margin: 0px;
 }
+
  i{
     margin-left: auto;
 }

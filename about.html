@@ -12,6 +12,11 @@
       crossorigin="anonymous"
     />
     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://kit.fontawesome.com/db75af2863.js"
       crossorigin="anonymous"
     ></script>
@@ -23,24 +28,71 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/she.png"
+            alt="shecodes logo"
+            class="shecodes-logo ms-5"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse me-5 collapse show" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-primary"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="container">
-    <div class="row header-section">
-        <div class="col-sm-6  gx-5">
-      <h1 class="heading m-3">Hi, I am Dabi Ayu</h1>
-      <h2 class="mb-4 poppins-head fs-5 fw-bold">Front-end developer based in Cameroon</h2>
-      <p class="lh-lg">
-        I am a Front-end junior developer currently studying at shecodes and so
-        far i've learned a lot from the shecodes workshops! I can't wait for
-        what awaits me after finishing the shecodes workshops.
-      </p>
-      <button class="btn btn-primary p-3 mt-4">
-        See my projects
-      </button>
+      <div class="row header-section">
+        <div class="col-sm-6 gx-5">
+          <h1 class="heading m-3">Hi, I am Dabi Ayu</h1>
+          <h2 class="mb-4 poppins-head fs-5 fw-bold">
+            Front-end developer based in Cameroon
+          </h2>
+          <p class="lh-lg">
+            I am a Front-end junior developer currently studying at shecodes and
+            so far i've learned a lot from the shecodes workshops! I can't wait
+            for what awaits me after finishing the shecodes workshops.
+          </p>
+          <button class="btn btn-primary p-3 mt-4">See my projects</button>
+        </div>
+        <div class="col-sm-6">
+          <img
+            src="images/port.png"
+            alt="owner's image"
+            class="img-fluid shadow-sm rounded owner-img"
+          />
+        </div>
       </div>
-      <div class=" col-sm-6">
-        <img src="images/port.png" alt="owner's image" class="img-fluid shadow-sm rounded owner-img">
-      </div>
-    </div>
     </div>
   </body>
 </html>
