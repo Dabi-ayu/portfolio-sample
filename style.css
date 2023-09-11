@@ -49,6 +49,26 @@ font-size: 96px;
 .header-section{
     padding: 160px 20px;
 }
+.banner h3{
+    font-family: var(--default-font-family);
+}
+.banner i{
+    color: #837dfe;
+}
+.hero-contact{
+    background-color: #426aac;
+}
+.contact-links{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.img-contact{
+display: block;
+ margin: 0 auto;   
+ width: 24%;
+
+}
 
 @media (max-width:576px){
 .hero-section h1, .heading, .aligned-head{
@@ -72,5 +92,17 @@ div{
 }
 .owner-img{
     margin-top: 20px;
+}
+.banner a{
+    margin: 8px;
+}
+.img-contact{
+width: 80%
+}
+.hero-contact{
+    margin: 0px;
+}
+ i{
+    margin-left: auto;
 }
 }
