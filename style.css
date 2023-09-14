@@ -116,7 +116,8 @@ div{
     text-align: center;
 }
 .shecodes-logo {
-    max-width: 24%;
+    /* max-width: 24%; */
+   
 }
 .header-section{
     padding: 15px 10px;
@@ -133,6 +134,9 @@ width: 80%
 .hero-contact{
     margin: 0px;
 }
+.navbar-nav{
+    text-align: left;
+}
 
  i{
     margin-left: auto;
@@ -143,5 +147,8 @@ width: 80%
 }
 .target-div{
     display: none;
+}
+.container-fluid{
+    text-align: justify;
 }
 }
