@@ -90,7 +90,8 @@ footer{
     color: white;
 }
 .shecodes-logo{
-    max-width: 48%;
+   max-width: 140px;
+   margin-left: 380px;
 }
 .navbar-nav a:hover{
     color: blue;
@@ -98,6 +99,8 @@ footer{
 .links a{
     text-decoration: none;
 }
+
+
 @media (max-width:576px){
 .hero-section h1, .heading, .aligned-head{
     font-size: 48px;
@@ -116,8 +119,8 @@ div{
     text-align: center;
 }
 .shecodes-logo {
-    /* max-width: 24%; */
-   
+   max-width: 96px;
+   margin-left: 5px;
 }
 .header-section{
     padding: 15px 10px;
